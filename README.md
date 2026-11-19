@@ -138,7 +138,7 @@ VoxScript-AI/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/21vicky/VoxScript-AI.git
+git clone https://github.com/21vicky/voxscript-dashboard.git
 ```
 
 ### 2. Navigate to the Project Folder
