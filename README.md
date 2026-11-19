@@ -75,11 +75,6 @@ The application provides language selection for:
 
 ## 📸 Application Screenshots
 
-### Dashboard
-
-<p align="center">
-  <img src=assets/voxscript-dashboard..png" alt="VoxScript AI Dashboard" width="850"> 
-</p>
 
 ### Transcription Result
 
