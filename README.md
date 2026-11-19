@@ -1,17 +1,20 @@
 # 🎙️ VoxScript AI
+
 ### AI-Powered Speech-to-Text Application
 
 VoxScript AI is an AI-powered speech recognition application built using **OpenAI Whisper, Python, PyTorch, and Streamlit**.
 
-It converts audio recordings into text using automatic speech recognition (ASR) and supports multiple languages.
+It converts audio recordings into text using Automatic Speech Recognition (ASR) and supports multiple languages.
 
 ## 📸 Application Screenshots
 
 ### Dashboard
+
 ![VoxScript AI Dashboard](assets/voxscript-dashboard.png)
 
 ### Transcription Result
-![Transcription Result](assets/Transcription result.png)
+
+![Transcription Result](assets/Transcription%20result.png)
 
 ## ✨ Features
 
@@ -82,7 +85,7 @@ This project uses the Base model to recognize speech and generate text transcrip
       Whisper Recognition
                |
                v
-       Speech-to-Text
+        Speech-to-Text
                |
                v
      Display Transcription
