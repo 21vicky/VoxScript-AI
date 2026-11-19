@@ -1,23 +1,18 @@
 # 🎙️ VoxScript AI
+
 ### AI-Powered Multilingual Speech-to-Text Application
 
-<p align="center">
-  <img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850">
-</p>
+\<p align="center">   \<img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850"> \</p>
 
-<p align="center">
-  <b>Transform audio into text with the power of Artificial Intelligence.</b>
-  <br>
-  An intelligent speech recognition application powered by OpenAI Whisper.
-</p>
+\<p align="center">   \<b>Transform audio into text with the power of Artificial Intelligence.\</b>   \<br>   An intelligent speech recognition application powered by OpenAI Whisper. \</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/AI-OpenAI%20Whisper-412991?logo=openai" alt="Whisper">
-  <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?logo=pytorch" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Audio-FFmpeg-007808" alt="FFmpeg">
-</p>
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/badge/Python-3.10%2B-blue?logo=python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)" alt="Python">
+&#x20; \<img src="[https://img.shields.io/badge/AI-OpenAI%20Whisper-412991?logo=openai](https://img.shields.io/badge/AI-OpenAI%20Whisper-412991?logo=openai)" alt="Whisper">
+&#x20; \<img src="[https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit)" alt="Streamlit">
+&#x20; \<img src="[https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?logo=pytorch](https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?logo=pytorch)" alt="PyTorch">
+&#x20; \<img src="[https://img.shields.io/badge/Audio-FFmpeg-007808](https://img.shields.io/badge/Audio-FFmpeg-007808)" alt="FFmpeg">
+\</p>
 
 ---
 
@@ -31,41 +26,39 @@ The application offers a simple, interactive interface for uploading audio, prev
 
 ## ✨ Key Features
 
-| Feature | Description |
-|---|---|
-| 🎙️ Audio Transcription | Convert speech recordings into text |
-| 🌍 Multilingual Support | Recognize speech in 12 languages |
-| 🔍 Language Detection | Automatically identify the spoken language |
-| 🎧 Audio Preview | Listen to uploaded audio before processing |
-| 🧠 AI Recognition | Powered by OpenAI Whisper |
-| 📝 Transcript Display | View and copy recognized text |
-| 📊 Text Analytics | Calculate word and character counts |
-| 📥 Transcript Export | Download results as TXT files |
-| 🌙 Modern UI | Interactive dark-themed dashboard |
+| Feature                 | Description                                |
+| ----------------------- | ------------------------------------------ |
+| 🎙️ Audio Transcription | Convert speech recordings into text        |
+| 🌍 Multilingual Support | Recognize speech in 12 languages           |
+| 🔍 Language Detection   | Automatically identify the spoken language |
+| 🎧 Audio Preview        | Listen to uploaded audio before processing |
+| 🧠 AI Recognition       | Powered by OpenAI Whisper                  |
+| 📝 Transcript Display   | View and copy recognized text              |
+| 📊 Text Analytics       | Calculate word and character counts        |
+| 📥 Transcript Export    | Download results as TXT files              |
+| 🌙 Modern UI            | Interactive dark-themed dashboard          |
 
 ## 📸 Application Screenshots
 
 ### 🖥️ Dashboard
 
-<p align="center">
-  <img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850">
-</p>
+\<p align="center">   \<img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850"> \</p>
 
 ### 📝 Transcription Results
 
-<p align="center">
-  <img src="assets/Transcription%20result.png" alt="VoxScript AI Transcription Result" width="850">
-</p>
+\<p align="center">
+&#x20; \<img src="assets/Transcription%20result.png" alt="VoxScript AI Transcription Result" width="850">
+\</p>
 
 ## 🛠️ Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| Python | Core application development |
-| OpenAI Whisper | Automatic speech recognition |
-| PyTorch | Deep learning framework |
-| Streamlit | Interactive web interface |
-| FFmpeg | Audio decoding and processing |
+| Technology     | Purpose                       |
+| -------------- | ----------------------------- |
+| Python         | Core application development  |
+| OpenAI Whisper | Automatic speech recognition  |
+| PyTorch        | Deep learning framework       |
+| Streamlit      | Interactive web interface     |
+| FFmpeg         | Audio decoding and processing |
 
 ## 🌍 Supported Languages
 
@@ -85,6 +78,8 @@ VoxScript AI supports speech recognition in the following languages:
 - 🌍 Arabic
 
 **Language modes:** Automatic detection and manual language selection.
+
+*Note: Transcription quality can vary depending on the language, audio quality, and selected Whisper model.*
 
 ## 🧠 AI Model Architecture
 
@@ -215,13 +210,13 @@ Open the local Streamlit URL displayed in your terminal.
 
 ## 📦 Audio File Support
 
-| Format | Extension |
-|---|---|
-| MPEG Audio | `.mp3` |
-| Wave Audio | `.wav` |
-| MPEG-4 Audio | `.m4a` |
-| OGG Audio | `.ogg` |
-| Free Lossless Audio Codec | `.flac` |
+| Format                    | Extension |
+| ------------------------- | --------- |
+| MPEG Audio                | `.mp3`    |
+| Wave Audio                | `.wav`    |
+| MPEG-4 Audio              | `.m4a`    |
+| OGG Audio                 | `.ogg`    |
+| Free Lossless Audio Codec | `.flac`   |
 
 **Maximum upload size:** 200 MB per file, as configured in the application.
 
@@ -249,34 +244,34 @@ Working on VoxScript AI helped me understand:
 
 ### Future Enhancements
 
-- [ ] Real-time microphone transcription.
-- [ ] Subtitle generation (SRT/VTT).
-- [ ] PDF and DOCX transcript exports.
-- [ ] Speaker identification and diarization.
-- [ ] Translation between supported languages.
-- [ ] Improved transcription accuracy.
-- [ ] GPU acceleration support.
+- Real-time microphone transcription.
+- Subtitle generation (SRT/VTT).
+- PDF and DOCX transcript exports.
+- Speaker identification and diarization.
+- Translation between supported languages.
+- Improved transcription accuracy.
+- GPU acceleration support.
 
 ## 👨‍💻 Developer
 
-<p align="center">
-  <b>Vignesh U</b>
-  <br>
-  <a href="https://github.com/21vicky">GitHub Profile</a>
-</p>
+\<p align="center">
+&#x20; \<b>Vignesh U\</b>
+&#x20; \<br>
+&#x20; \<a href="[https://github.com/21vicky](https://github.com/21vicky)">GitHub Profile\</a>
+\</p>
 
 ## 📅 30 Days – 30 AI Projects
 
-<p align="center">
-  <b>Day 13 | VoxScript AI</b>
-  <br>
-  Turning Speech into Text with Artificial Intelligence. 🚀
-</p>
+\<p align="center">
+&#x20; \<b>Day 13 | VoxScript AI\</b>
+&#x20; \<br>
+&#x20; Turning Speech into Text with Artificial Intelligence. 🚀
+\</p>
 
 ---
 
-<p align="center">
-  ⭐ If you find this project interesting, consider giving it a star!
-  <br><br>
-  <b>Built with ❤️ using Python, Whisper & Streamlit.</b>
-</p>
+\<p align="center">
+&#x20; ⭐ If you find this project interesting, consider giving it a star!
+&#x20; \<br>\<br>
+&#x20; \<b>Built with ❤️ using Python, Whisper & Streamlit.\</b>
+\</p>
