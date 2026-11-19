@@ -1,140 +1,119 @@
+<div align="center">
+
 # 🎙️ VoxScript AI
 
 ### AI-Powered Multilingual Speech-to-Text Application
 
-\<p align="center">   \<img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850"> \</p>
+Convert audio into text using OpenAI Whisper, Python, PyTorch, and Streamlit.
 
-\<p align="center">   \<b>Transform audio into text with the power of Artificial Intelligence.\</b>   \<br>   An intelligent speech recognition application powered by OpenAI Whisper. \</p>
+<p align="center">
+  <img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850">
+</p>
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.10%2B-blue?logo=python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)" alt="Python">
-&#x20; \<img src="[https://img.shields.io/badge/AI-OpenAI%20Whisper-412991?logo=openai](https://img.shields.io/badge/AI-OpenAI%20Whisper-412991?logo=openai)" alt="Whisper">
-&#x20; \<img src="[https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit)" alt="Streamlit">
-&#x20; \<img src="[https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?logo=pytorch](https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?logo=pytorch)" alt="PyTorch">
-&#x20; \<img src="[https://img.shields.io/badge/Audio-FFmpeg-007808](https://img.shields.io/badge/Audio-FFmpeg-007808)" alt="FFmpeg">
-\</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/AI-OpenAI%20Whisper-412991?logo=openai" alt="Whisper">
+  <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?logo=pytorch" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Audio-FFmpeg-007808" alt="FFmpeg">
+</p>
+
+</div>
 
 ---
 
-## 📌 Overview
+## 📌 About the Project
 
-**VoxScript AI** is an AI-powered Automatic Speech Recognition (ASR) application built using **Python, OpenAI Whisper, PyTorch, and Streamlit**.
+**VoxScript AI** is an AI-powered speech-to-text application that converts spoken audio into written text using OpenAI's Whisper automatic speech recognition model.
 
-It converts audio recordings into text through advanced speech recognition technology, providing multilingual transcription and automatic language detection through Whisper.
+The application provides a simple and interactive interface built with Streamlit. Users can upload audio files, select a language, choose a Whisper model, and generate text transcriptions.
 
-The application offers a simple, interactive interface for uploading audio, previewing recordings, generating transcripts, and downloading recognized text.
+This project explores practical applications of Speech Recognition, Natural Language Processing, and Deep Learning.
 
-## ✨ Key Features
+## ✨ Features
 
-| Feature                 | Description                                |
-| ----------------------- | ------------------------------------------ |
-| 🎙️ Audio Transcription | Convert speech recordings into text        |
-| 🌍 Multilingual Support | Recognize speech in 12 languages           |
-| 🔍 Language Detection   | Automatically identify the spoken language |
-| 🎧 Audio Preview        | Listen to uploaded audio before processing |
-| 🧠 AI Recognition       | Powered by OpenAI Whisper                  |
-| 📝 Transcript Display   | View and copy recognized text              |
-| 📊 Text Analytics       | Calculate word and character counts        |
-| 📥 Transcript Export    | Download results as TXT files              |
-| 🌙 Modern UI            | Interactive dark-themed dashboard          |
+- 🎙️ **Speech-to-Text:** Convert audio recordings into text.
+- 🌍 **Multilingual Support:** Transcribe audio in multiple languages.
+- 🤖 **Whisper Integration:** Uses OpenAI Whisper for speech recognition.
+- ⚙️ **Model Selection:** Choose the available Whisper model.
+- 🔊 **Audio Preview:** Listen to uploaded audio before transcription.
+- 📝 **Transcript Display:** View and copy generated text.
+- 📥 **Download Transcript:** Download the transcription as a TXT file.
+- 📊 **Text Statistics:** View word and character counts.
+- 🎨 **Interactive UI:** Dark-themed Streamlit dashboard.
 
-## 📸 Application Screenshots
+## 🌐 Supported Languages
 
-### 🖥️ Dashboard
+The application provides language selection for:
 
-\<p align="center">   \<img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850"> \</p>
+- Auto Detect
+- English
+- Tamil
+- Hindi
+- Telugu
+- Malayalam
+- Kannada
+- French
+- Spanish
+- German
+- Japanese
+- Korean
+- Arabic
 
-### 📝 Transcription Results
-
-\<p align="center">
-&#x20; \<img src="assets/Transcription%20result.png" alt="VoxScript AI Transcription Result" width="850">
-\</p>
+*Transcription accuracy may vary depending on the language, audio quality, pronunciation, and selected Whisper model.*
 
 ## 🛠️ Technology Stack
 
-| Technology     | Purpose                       |
-| -------------- | ----------------------------- |
-| Python         | Core application development  |
-| OpenAI Whisper | Automatic speech recognition  |
-| PyTorch        | Deep learning framework       |
-| Streamlit      | Interactive web interface     |
-| FFmpeg         | Audio decoding and processing |
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| OpenAI Whisper | Speech recognition |
+| PyTorch | Deep learning framework |
+| Streamlit | Web application interface |
+| FFmpeg | Audio processing |
+| Git & GitHub | Version control and project hosting |
 
-## 🌍 Supported Languages
+## 📸 Application Screenshots
 
-VoxScript AI supports speech recognition in the following languages:
+### Dashboard
 
-- 🇬🇧 English
-- 🇮🇳 Tamil
-- 🇮🇳 Hindi
-- 🇮🇳 Telugu
-- 🇮🇳 Malayalam
-- 🇮🇳 Kannada
-- 🇫🇷 French
-- 🇪🇸 Spanish
-- 🇩🇪 German
-- 🇯🇵 Japanese
-- 🇰🇷 Korean
-- 🌍 Arabic
+<p align="center">
+  <img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850">
+</p>
 
-**Language modes:** Automatic detection and manual language selection.
+### Transcription Result
 
-*Note: Transcription quality can vary depending on the language, audio quality, and selected Whisper model.*
+<p align="center">
+  <img src="assets/Transcription%20result.png" alt="VoxScript AI Transcription Result" width="850">
+</p>
 
-## 🧠 AI Model Architecture
+## 🧠 How It Works
 
-### OpenAI Whisper – Base Model
+VoxScript AI follows a simple speech recognition workflow:
 
-VoxScript AI uses the **Whisper Base model**, a multilingual automatic speech recognition model developed by OpenAI.
-
-The model processes audio input and generates text transcriptions using learned speech representations.
-
-**Processing pipeline:**
-
-1. Audio file upload.
-2. Audio preprocessing and decoding using FFmpeg.
-3. Audio feature extraction.
-4. Whisper-based speech recognition.
-5. Text transcription generation.
-6. Result display and downloadable output.
+1. User uploads an audio file.
+2. The application loads the selected Whisper model.
+3. FFmpeg handles the required audio processing.
+4. Whisper analyzes the audio and recognizes spoken words.
+5. The application displays the generated transcript.
+6. Users can view text statistics and download the transcript.
 
 ## 🔄 Project Workflow
 
-The following diagram illustrates the complete processing pipeline, from audio upload to transcript export.
-
 ```mermaid
 flowchart TD
-    A(["🎙️ START"]) --> B["📁 Upload Audio File"]
-    B --> C["🎧 Audio Preview"]
-    C --> D["🌍 Select Language"]
-
-    subgraph AI["🤖 AI PROCESSING PIPELINE"]
-        E["⚙️ Load Whisper Model"]
-        F["🎵 Audio Processing — FFmpeg"]
-        G["🧠 Whisper Recognition"]
-        H["📝 Speech-to-Text Conversion"]
-        E --> F --> G --> H
-    end
-
-    D --> E
-    H --> I["📄 Display Transcription"]
-    I --> J["📊 Word & Character Count"]
-    J --> K["⬇️ Download TXT File"]
-    K --> L(["✅ END"])
-
-    classDef start fill:#166534,stroke:#4ade80,color:#fff
-    classDef input fill:#172554,stroke:#60a5fa,color:#fff
-    classDef process fill:#312e81,stroke:#a78bfa,color:#fff
-    classDef output fill:#581c87,stroke:#d8b4fe,color:#fff
-    classDef finish fill:#14532d,stroke:#4ade80,color:#fff
-
-    class A start
-    class B,C,D input
-    class E,F,G,H process
-    class I,J,K output
-    class L finish
-
-    style AI fill:#111827,stroke:#8b5cf6,color:#c4b5fd
+    A[Start Application] --> B[Upload Audio File]
+    B --> C[Preview Audio]
+    C --> D[Select Language]
+    D --> E[Select Whisper Model]
+    E --> F[Load Whisper Model]
+    F --> G[Process Audio]
+    G --> H[Speech Recognition]
+    H --> I[Generate Transcript]
+    I --> J[Display Transcript]
+    J --> K[Calculate Word and Character Count]
+    K --> L[Download TXT File]
+    L --> M[End]
 ```
 
 ## 📂 Project Structure
@@ -154,9 +133,7 @@ VoxScript-AI/
 └── .gitignore
 ```
 
-## 🚀 Installation & Setup
-
-Follow these steps to run VoxScript AI locally.
+## ⚙️ Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -164,7 +141,7 @@ Follow these steps to run VoxScript AI locally.
 git clone https://github.com/21vicky/VoxScript-AI.git
 ```
 
-### 2. Navigate to the Project Directory
+### 2. Navigate to the Project Folder
 
 ```bash
 cd VoxScript-AI
@@ -176,18 +153,12 @@ cd VoxScript-AI
 python -m venv venv
 ```
 
-### 4. Activate the Environment
+### 4. Activate the Virtual Environment
 
-**Windows:**
+**Windows PowerShell:**
 
-```bash
-venv\Scripts\activate
-```
-
-**Linux / macOS:**
-
-```bash
-source venv/bin/activate
+```powershell
+.\venv\Scripts\Activate.ps1
 ```
 
 ### 5. Install Dependencies
@@ -198,80 +169,74 @@ pip install -r requirements.txt
 
 ### 6. Install FFmpeg
 
-Install FFmpeg and ensure that its executable is available in your system PATH.
+Download and install FFmpeg, then make sure it is available in your system PATH.
 
-### 7. Launch the Application
+### 7. Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-Open the local Streamlit URL displayed in your terminal.
+The application will open in your browser.
 
-## 📦 Audio File Support
+## 📦 Requirements
 
-| Format                    | Extension |
-| ------------------------- | --------- |
-| MPEG Audio                | `.mp3`    |
-| Wave Audio                | `.wav`    |
-| MPEG-4 Audio              | `.m4a`    |
-| OGG Audio                 | `.ogg`    |
-| Free Lossless Audio Codec | `.flac`   |
+The project dependencies are listed in `requirements.txt`.
 
-**Maximum upload size:** 200 MB per file, as configured in the application.
+```text
+openai-whisper
+streamlit
+```
 
-## 📚 Learning Outcomes
+PyTorch and other required dependencies are installed as part of the Whisper installation.
 
-Working on VoxScript AI helped me understand:
+## 🎯 Learning Outcomes
+
+Through this project, I explored:
 
 - Fundamentals of Automatic Speech Recognition (ASR).
-- How AI models recognize and process human speech.
-- Integrating OpenAI Whisper into Python applications.
-- Audio decoding and processing using FFmpeg.
-- Working with PyTorch-based deep learning models.
-- Developing interactive applications using Streamlit.
-- Handling audio uploads, transcription results, and file downloads.
-- Implementing multilingual speech recognition.
+- Working with OpenAI Whisper.
+- Understanding multilingual speech recognition.
+- Integrating PyTorch-based AI models.
+- Audio processing using FFmpeg.
+- Building interactive applications with Streamlit.
+- Handling audio uploads and generated text.
+- Creating downloadable transcription files.
 
-## ⚠️ Limitations & Future Improvements
+## ⚠️ Limitations
 
-### Current Limitations
+- Transcription accuracy depends on audio quality and background noise.
+- Processing time depends on audio duration and hardware.
+- Different Whisper models offer different speed and accuracy trade-offs.
+- Some languages may require larger models for better transcription accuracy.
 
-- Transcription accuracy depends on audio quality, background noise, and language.
-- Tamil transcription accuracy with the Base model may require improvement.
-- Processing speed depends on available CPU, RAM, and hardware resources.
-- Very large audio files may require longer processing times.
+## 🚀 Future Enhancements
 
-### Future Enhancements
-
-- Real-time microphone transcription.
-- Subtitle generation (SRT/VTT).
-- PDF and DOCX transcript exports.
-- Speaker identification and diarization.
-- Translation between supported languages.
-- Improved transcription accuracy.
-- GPU acceleration support.
+- Add real-time microphone transcription.
+- Support subtitle generation (SRT/VTT).
+- Add speaker identification.
+- Improve transcription accuracy for regional languages.
+- Add translation of generated transcripts.
+- Provide transcription history and export options.
 
 ## 👨‍💻 Developer
 
-\<p align="center">
-&#x20; \<b>Vignesh U\</b>
-&#x20; \<br>
-&#x20; \<a href="[https://github.com/21vicky](https://github.com/21vicky)">GitHub Profile\</a>
-\</p>
+**Vignesh U**
 
-## 📅 30 Days – 30 AI Projects
+Full Stack Developer | Python | AI & Data Analytics
 
-\<p align="center">
-&#x20; \<b>Day 13 | VoxScript AI\</b>
-&#x20; \<br>
-&#x20; Turning Speech into Text with Artificial Intelligence. 🚀
-\</p>
+<p align="left">
+  <a href="https://github.com/21vicky">GitHub Profile</a>
+</p>
 
 ---
 
-\<p align="center">
-&#x20; ⭐ If you find this project interesting, consider giving it a star!
-&#x20; \<br>\<br>
-&#x20; \<b>Built with ❤️ using Python, Whisper & Streamlit.\</b>
-\</p>
+<div align="center">
+
+### 🚀 30 Days – 30 AI Projects
+
+**Day 13 — VoxScript AI**
+
+*Learning, Building, and Exploring Artificial Intelligence.*
+
+</div>
