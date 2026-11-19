@@ -10,7 +10,7 @@ It converts audio recordings into text using Automatic Speech Recognition (ASR) 
 
 ### Dashboard
 
-![VoxScript AI Dashboard](assets/voxscript-dashboard.png)
+![VoxScript AI Dashboard](assets/voxscript-dashboard..png)
 
 ### Transcription Result
 
