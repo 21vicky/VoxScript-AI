@@ -14,7 +14,7 @@ It converts audio recordings into text using Automatic Speech Recognition (ASR) 
 
 ### Transcription Result
 
-![Transcription Result](assets/Transcription%20result.png)
+![VoxScript AI Transcription Result](assets/Transcription%20result.png)
 
 ## ✨ Features
 
