@@ -7,7 +7,7 @@
 Convert audio into text using OpenAI Whisper, Python, PyTorch, and Streamlit.
 
 <p align="center">
-  <img src="assets/voxscript-dashboard.png" alt="VoxScript AI Dashboard" width="850">
+  <img src="assets/voxscript-dashboard..png" alt="VoxScript AI Dashboard" width="850">
 </p>
 
 <p align="center">
